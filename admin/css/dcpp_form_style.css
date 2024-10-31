@@ -1,0 +1,10 @@
+.form-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    align-items: center;
+}
+
+.form-row div{
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
